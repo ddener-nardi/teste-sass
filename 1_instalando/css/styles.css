@@ -1,0 +1,17 @@
+body {
+  background-color: #ccc;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: lightblue;
+}
+.container h1 {
+  color: #fac23a;
+  text-align: center;
+  background-color: blue;
+}
+
+/*# sourceMappingURL=styles.css.map */
