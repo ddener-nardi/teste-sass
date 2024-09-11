@@ -67,12 +67,21 @@ a:hover {
   padding: 200px;
 }
 
+.subtitle, .title {
+  border-bottom: 2px dotted red;
+  padding: 10px;
+  background-color: yellow;
+  text-align: center;
+}
+
 .title {
   font-size: 30px;
+  color: green;
 }
 
 .subtitle {
   font-size: 25px;
+  color: blue;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles.min.css.map */

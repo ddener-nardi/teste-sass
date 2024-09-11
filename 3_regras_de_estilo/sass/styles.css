@@ -1,7 +1,6 @@
 div, main {
   background: #ddd;
 }
-
 div p, main p {
   color: blue;
 }
@@ -9,3 +8,78 @@ div p, main p {
 main .p-vermelho {
   color: red;
 }
+
+ul > li {
+  color: purple;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+  transition: 0.5s;
+  padding: 10px;
+  border: 1px solid green;
+  display: block;
+  width: 150px;
+  text-align: center;
+}
+a:hover {
+  background-color: green;
+  color: white;
+}
+
+.container {
+  background-color: #ccc;
+  padding: 20px;
+  margin: 20px;
+}
+.container-content {
+  color: red;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: 1px solid border;
+  border-radius: 5px;
+  color: #fff;
+  background-color: blue;
+  cursor: pointer;
+  margin: 5px;
+}
+.btn:hover {
+  color: blue;
+  background-color: white;
+}
+.btn-success {
+  background-color: green;
+}
+.btn-success:hover {
+  color: green;
+}
+.btn-danger {
+  background-color: red;
+}
+.btn-danger:hover {
+  color: red;
+}
+
+.spacing {
+  padding: 200px;
+}
+
+.subtitle, .title {
+  border-bottom: 2px dotted red;
+  padding: 10px;
+  background-color: yellow;
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  color: green;
+}
+
+.subtitle {
+  font-size: 25px;
+  color: blue;
+}/*# sourceMappingURL=styles.css.map */
