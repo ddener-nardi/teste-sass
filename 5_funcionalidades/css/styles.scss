@@ -1,0 +1,33 @@
+@import 'variables';
+@import 'buttons';
+@import 'mixins';
+@import 'modules';
+@import 'functions';
+
+
+
+.esp{
+    @include special;
+    @extend %font-pattern;
+}
+h2{
+    @include special;
+    @include green;
+    @extend %font-pattern;
+}
+.esp-menor{
+    @include espacamento(10px, 10px);
+    @include custom-border(solid, red);
+    @extend %font-pattern;
+}
+.esp-medio{
+    @include espacamento(15px, 15px);
+    @include custom-border(dotted, blue, 2px);
+    @extend %font-pattern;
+}
+.esp-maior{
+    @include espacamento(20px, 20px);
+    border: 2px solid green;
+    @extend %font-pattern;
+}
+
